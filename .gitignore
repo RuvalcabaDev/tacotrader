@@ -1,0 +1,91 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de configuración local
+config.local.*
+*.local.yaml
+*.local.yml
+*.local.json
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de logs y datos
+*.log
+logs/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+
+# Archivos de cobertura
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Archivos de profiling
+profile/
+prof/
+
+# Archivos de documentación
+docs/_build/
+docs/build/
+
+# Archivos de paquetes
+*.whl
+*.tar.gz
