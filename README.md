@@ -30,7 +30,7 @@ Este bot ejecuta estrategias de trading automatizado con la precisión de un taq
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/tacotrader.git
+git clone https://github.com/RuvalcabaDev/tacotrader.git
 cd tacotrader
 
 # Crear entorno virtual (recomendado)
@@ -105,7 +105,7 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 ## 👨‍💻 Autor
 
-**Salvador Ruvalcaba** - [@tu-usuario](https://github.com/tu-usuario)
+**Salvador Ruvalcaba** - [@RuvalcabaDev](https://github.com/RuvalcabaDev)
 
 ---
 
@@ -142,7 +142,7 @@ This bot executes automated trading strategies with the precision of a street ta
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/tacotrader.git
+git clone https://github.com/RuvalcabaDev/tacotrader.git
 cd tacotrader
 
 # Create virtual environment (recommended)
@@ -217,4 +217,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Salvador Ruvalcaba** - [@your-username](https://github.com/your-username)
+**Salvador Ruvalcaba** - [@RuvalcabaDev](https://github.com/RuvalcabaDev)

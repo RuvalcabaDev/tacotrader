@@ -11,7 +11,7 @@ Este proyecto y todos los participantes se rigen por el [Código de Conducta del
 ## 🚀 ¿Cómo Contribuir?
 
 ### 1. Reportar Bugs
-- Usa el [issue tracker](https://github.com/tu-usuario/tacotrader/issues)
+- Usa el [issue tracker](https://github.com/RuvalcabaDev/tacotrader/issues)
 - Incluye un título descriptivo
 - Describe los pasos para reproducir el bug
 - Incluye información del entorno (Python version, SO, etc.)
@@ -40,7 +40,7 @@ Este proyecto y todos los participantes se rigen por el [Código de Conducta del
 
 ```bash
 # 1. Clona tu fork
-git clone https://github.com/tu-usuario/tacotrader.git
+git clone https://github.com/RuvalcabaDev/tacotrader.git
 cd tacotrader
 
 # 2. Crea entorno virtual
@@ -107,7 +107,7 @@ tacotrader/
 ## ❓ ¿Necesitas Ayuda?
 
 - Revisa la [documentación](README.md)
-- Abre un [issue](https://github.com/tu-usuario/tacotrader/issues)
+- Abre un [issue](https://github.com/RuvalcabaDev/tacotrader/issues)
 - Únete a nuestro [canal de Discord/Telegram] (si existe)
 
 ---
@@ -126,7 +126,7 @@ This project and all participants are governed by the [Contributor Code of Condu
 ## 🚀 How to Contribute?
 
 ### 1. Report Bugs
-- Use the [issue tracker](https://github.com/your-username/tacotrader/issues)
+- Use the [issue tracker](https://github.com/RuvalcabaDev/tacotrader/issues)
 - Include a descriptive title
 - Describe steps to reproduce the bug
 - Include environment information (Python version, OS, etc.)
@@ -155,7 +155,7 @@ This project and all participants are governed by the [Contributor Code of Condu
 
 ```bash
 # 1. Clone your fork
-git clone https://github.com/your-username/tacotrader.git
+git clone https://github.com/RuvalcabaDev/tacotrader.git
 cd tacotrader
 
 # 2. Create virtual environment
@@ -222,5 +222,5 @@ tacotrader/
 ## ❓ Need Help?
 
 - Check the [documentation](README.md)
-- Open an [issue](https://github.com/your-username/tacotrader/issues)
+- Open an [issue](https://github.com/RuvalcabaDev/tacotrader/issues)
 - Join our [Discord/Telegram channel] (if exists)
