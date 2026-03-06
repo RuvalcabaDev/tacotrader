@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  tacotrader-bmv:
+    build: .
+    container_name: tacotrader-bmv
+    restart: unless-stopped
+    environment:
+      - TZ=America/Mexico_City
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+    env_file:
+      - .env
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

@@ -1,0 +1,26 @@
+# Core
+python-dotenv==1.2.2
+pyyaml==6.0.3
+
+# HTTP Requests
+requests==2.32.5
+
+# Data Processing
+pandas==3.0.1
+numpy==2.2.6
+pandas-ta==0.4.71b0
+
+# Telegram
+pyTelegramBotAPI==4.31.0
+
+# Scheduling & Time
+schedule==1.2.2
+pytz==2026.1.post1
+python-dateutil==2.9.0.post0
+
+# Logging
+structlog==25.5.0
+
+# Utilities
+tenacity==9.1.4          # Retries
+cachetools==7.0.3
