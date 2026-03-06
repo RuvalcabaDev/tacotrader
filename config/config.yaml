@@ -1,0 +1,88 @@
+# TacoTrader BMV Configuration
+
+# Market Configuration
+market:
+  name: "BMV"
+  region: "MX"
+  timezone: "America/Mexico_City"
+  open_time: "07:00"
+  close_time: "15:00"
+  check_interval_minutes: 5
+
+# Data Providers
+data_providers:
+  primary: "itick"
+  fallback: "yahoo"
+  
+  itick:
+    base_url: "https://api.itick.org"
+    endpoints:
+      symbol_list: "/symbol/list"
+      quote: "/stock/tick"
+      historical: "/stock/historical"
+    
+  yahoo:
+    suffix: ".MX"
+
+# Screener Configuration
+screener:
+  max_symbols: 100
+  top_results: 5
+  
+  criteria:
+    min_movement_percent: 2.0
+    min_relative_volume: 1.8
+    min_atr_percent: 2.5
+    min_market_cap_mxn: 10000000000  # $10B MXN
+    min_price_mxn: 10.0
+    
+  probability_weights:
+    movement: 0.4
+    volume: 0.3
+    atr: 0.2
+    market_cap: 0.1
+
+# Alert Configuration
+alerts:
+  telegram:
+    enabled: true
+    template: "bmv"
+    
+  templates:
+    bmv: |
+      🚨 BMV ALERT
+      
+      Ticker: {symbol}
+      Movimiento: {movement}%
+      Volumen relativo: {rel_volume}x
+      Precio actual: ${price}
+      
+      ATR: {atr}%
+      Capitalización: ${market_cap}B MXN
+      
+      Momentum: {momentum}
+      Entrada sugerida: {entry_price}
+      Objetivo: {target_price}
+      Stop: {stop_price}
+      
+      Probabilidad estimada: {probability}%
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/tacotrader.log"
+  max_size_mb: 10
+  backup_count: 5
+
+# Cache Configuration
+cache:
+  ttl_minutes: 5
+  enabled: true
+  
+# Performance
+performance:
+  max_workers: 5
+  request_timeout_seconds: 30
+  max_retries: 3
+  retry_delay_seconds: 2
