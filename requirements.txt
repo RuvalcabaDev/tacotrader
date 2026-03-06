@@ -24,3 +24,6 @@ structlog==25.5.0
 # Utilities
 tenacity==9.1.4          # Retries
 cachetools==7.0.3
+
+# WebSocket
+websocket-client==1.9.0

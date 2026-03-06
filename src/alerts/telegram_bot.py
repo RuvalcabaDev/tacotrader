@@ -9,7 +9,7 @@ class TelegramAlertBot:
     """
     Bot de Telegram para enviar alertas de trading.
     
-    Usa pyTelegramBotAPI 4.31.0
+    Usa pyTelegramBotAPI 4.31.0 (importado como telebot)
     """
     
     def __init__(self, bot_token: str, chat_id: str):
