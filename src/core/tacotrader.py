@@ -402,7 +402,7 @@ class TacoTraderBMV:
                             )
                             
                             try:
-                                self.telegram_bot.send_message(message)
+                                self.telegram_bot.send_status_message(message)
                                 logger.info("Mensaje de WebSocket enviado a Telegram")
                             except Exception as e:
                                 logger.error(f"Error enviando mensaje a Telegram: {e}")
@@ -415,31 +415,6 @@ class TacoTraderBMV:
                 
         except Exception as e:
             logger.error(f"Error configurando suscripción WebSocket: {e}")
-                                    symbol_code
-                                )
-                                subscribed_symbols_info.append(symbol_name)
-                        
-                        if subscribed_symbols_info:
-                            symbols_str = ", ".join(subscribed_symbols_info[:5])
-                            if len(subscribed_symbols_info) > 5:
-                                symbols_str += f" y {len(subscribed_symbols_info) - 5} más"
-                        else:
-                            symbols_str = f"{subscribed_count} símbolos"
-                        
-                        msg = (
-                            f"🔌 WebSocket conectado\n"
-                            f"Símbolos en tiempo real: {symbols_str}\n"
-                            f"📡 Fuente: WebSocket (3 símbolos límite free tier)\n"
-                            f"📊 Resto: REST API cada 10 minutos"
-                        )
-                        self.telegram_bot.send_status_message(msg)
-                else:
-                    logger.warning("No se pudo suscribir símbolos al WebSocket")
-            else:
-                logger.warning("No hay símbolos para suscribir al WebSocket")
-                
-        except Exception as e:
-            logger.error(f"Error configurando WebSocket: {e}")
     
     def get_websocket_status(self) -> Dict:
         """Obtiene el estado del WebSocket."""
