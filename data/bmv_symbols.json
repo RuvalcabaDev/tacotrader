@@ -1,0 +1,101 @@
+{
+  "symbols": [
+    {
+      "code": "AC",
+      "name": "AC",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "arca-continental-sab-de-cv",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ACCELSAB",
+      "name": "ACCELSAB",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "accel-sab-de-cv",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ACTINVRB",
+      "name": "ACTINVRB",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "actinver",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "AGUA",
+      "name": "AGUA",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "grupo-rotoplas-sab-de-cv",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ALFAA",
+      "name": "ALFAA",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "alfa",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ALSEA",
+      "name": "ALSEA",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "alsea-sab-de-cv",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ALTERNAB",
+      "name": "ALTERNAB",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "alterna-asesoria-intl-sab-de-cv",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "AMXB",
+      "name": "AMXB",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "america-movil",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ANGELD10",
+      "name": "ANGELD10",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "smartshares",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    },
+    {
+      "code": "ARA",
+      "name": "ARA",
+      "exchange": "BMV",
+      "sector": null,
+      "listing": "consorcio-ara-sab",
+      "estimated_cap_mxn_b": 1000,
+      "priority": 1000
+    }
+  ],
+  "last_update": "2026-03-06T00:56:51.203714",
+  "metadata": {
+    "total_symbols": 10,
+    "max_symbols": 10,
+    "provider": "iTick",
+    "region": "MX"
+  }
+}

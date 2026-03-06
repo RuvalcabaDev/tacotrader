@@ -49,7 +49,6 @@ wheels/
 # Archivos de logs y datos
 *.log
 logs/
-data/
 *.db
 *.sqlite
 *.sqlite3
